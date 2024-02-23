@@ -4,10 +4,21 @@ cmds
 	- touch fileName : creates file
 
 git cmds
+	- git init : will initialize current folder
+	- rm -rf .git :remove initialzition 
+
 	- git status :Whats going on? Are there untracked files
 	- git add . : Add all file not being track to being tracked (staging area)
+	- git rm --cached fileName : send it back to unstaged(untracked)
 
 	- git commit -m "Message I want along with commit"
 	- git push
 	- git push origin branchName
 	- git push set-origin branchName
+	- git remote add origin branch http://link-to-github/folder.git
+	- git remote set-url origin
+
+	- git branch : will show current branch
+	- git branch -M main : will rename current branch to main
+
+	- git clone http://link-to-github/folder.git
