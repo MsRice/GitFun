@@ -1,0 +1,13 @@
+gitBash -- Windows bash cmd line interface
+
+cmds
+	- touch fileName : creates file
+
+git cmds
+	- git status :Whats going on? Are there untracked files
+	- git add . : Add all file not being track to being tracked (staging area)
+
+	- git commit -m "Message I want along with commit"
+	- git push
+	- git push origin branchName
+	- git push set-origin branchName
