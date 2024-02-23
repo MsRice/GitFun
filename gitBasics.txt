@@ -21,4 +21,7 @@ git cmds
 	- git branch : will show current branch
 	- git branch -M main : will rename current branch to main
 
+	- git push -u origin main
+				  {origin == name}
+
 	- git clone http://link-to-github/folder.git
